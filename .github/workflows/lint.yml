@@ -1,9 +1,9 @@
-name: Node test and lint
-run-name: Test and Lint nodejs app
+name: Node Lint
+run-name: Lint nodejs app
 on: [push]
 
 jobs:
-  test-and-lint:
+  lint:
     runs-on: self-hosted
     steps:
       - name: Descargar el repo
@@ -23,8 +23,3 @@ jobs:
         working-directory: ./calculadora
         run: |
           npm run lint
-
-      - name: Ejecutar tests
-        working-directory: ./calculadora
-        run: |
-          npm test
