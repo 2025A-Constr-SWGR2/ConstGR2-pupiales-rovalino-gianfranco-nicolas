@@ -13,8 +13,8 @@ jobs:
           node-version: '22.x'
       - name: Instalar dependencias
         run: |
-        cd calculadora
-        npm install
+          cd calculadora
+          npm install
       - name: Complilar 
         run: |
           cd calculadora
