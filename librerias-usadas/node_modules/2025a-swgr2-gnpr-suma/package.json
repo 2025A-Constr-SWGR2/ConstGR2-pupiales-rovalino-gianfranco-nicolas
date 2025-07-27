@@ -1,0 +1,11 @@
+{
+  "name": "2025a-swgr2-gnpr-suma",
+  "version": "1.0.0",
+  "description": "suma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gianfranco Nicolas Pupiales Rovalino",
+  "license": "ISC"
+}
