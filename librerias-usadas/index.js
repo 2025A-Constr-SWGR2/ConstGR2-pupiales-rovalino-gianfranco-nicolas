@@ -3,9 +3,10 @@ const paqueteResta = require('2025a-swgr2-gnpr-resta');
 const paqueteMultiplicacion = require('2025a-swgr2-gnpr-multiplicacion');
 const paqueteDivision = require('2025a-swgr2-gnpr-division');
 
-const resultadoSuma = paqueteSuma.suma(1, 2);
-const resultadoResta = paqueteResta.resta(5, 3);
-const resultadoMultiplicacion = paqueteMultiplicacion.multiplicacion(4, 6);
+// Operaciones establecidas para el examen
+const resultadoSuma = paqueteSuma.suma(2, 1);
+const resultadoResta = paqueteResta.resta(3, 2);
+const resultadoMultiplicacion = paqueteMultiplicacion.multiplicacion(2, 5);
 const resultadoDivision = paqueteDivision.division(9, 3);
 
 console.log('Resultado de la suma:', resultadoSuma);
